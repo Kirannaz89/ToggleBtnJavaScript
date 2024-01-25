@@ -1,0 +1,123 @@
+body {
+	text-align: center;
+
+}
+
+
+.textOne {
+    font-size: 40px;
+    color: #494949;
+    float: left;
+}
+.toggleOne {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border: 2px solid gray;
+    background-color: lightslategray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+ .textTwo {
+    font-size: 40px;
+    color: #494949;
+    float: left;
+}
+.toggleTwo {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border: 2px solid gray;
+    background-color: lightslategray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.textThree {
+    font-size: 40px;
+    color: #494949;
+    float: left;
+}
+.toggleThree {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border: 2px solid gray;
+    background-color: lightslategray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+} 
+
+.circleOne {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: .3s;
+}
+.circleTwo {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: .3s;
+}
+ .circleThree {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: .3s;
+} 
+img {
+	position: relative;
+	top:-1px;
+}
+ img .sad{
+	background-color: gray;
+}
+
+.active {
+    border-color: skyblue;
+    background-color: skyblue;
+}
+
+.active .circleOne {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: deeppink;
+}
+.active .circleTwo {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: deeppink;
+}
+
+.active .circleThree {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: deeppink;
+}
+
+
